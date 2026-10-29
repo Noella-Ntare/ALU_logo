@@ -1,0 +1,17 @@
+
+
+  ALUAssetRegistry (ERC-721)
+    ✔ 1. registers the ALU logo successfully and returns a token ID
+    ✔ 2. rejects registering the same hash a second time
+    ✔ 3. verifyLogoIntegrity() returns true for the correct hash
+    ✔ 4. verifyLogoIntegrity() returns false for an incorrect hash
+    ✔ 5. getAsset() returns the correct asset name and file type
+
+  ALULogoToken (ERC-20)
+    ✔ 6. mints the full 1,000,000 ALUT supply to the logo owner
+    ✔ 7. distributeShares() transfers tokens to the recipient
+    ✔ 8. ownershipPercentage() returns the correct percentage
+
+
+  8 passing (819ms)
+
