@@ -1,0 +1,26 @@
+{
+  "name": "alu-logo-registry",
+  "version": "1.0.0",
+  "description": "ALU logo registration (ERC-721) and tokenisation (ERC-20) on Ethereum",
+  "scripts": {
+    "compile": "hardhat compile",
+    "test": "hardhat test",
+    "node": "hardhat node",
+    "deploy": "hardhat run scripts/deploy.js --network localhost",
+    "deploy:sepolia": "hardhat run scripts/deploy.js --network sepolia",
+    "hash": "node scripts/hash-logo.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-chai-matchers": "^2.1.2",
+    "@nomicfoundation/hardhat-ethers": "^3.1.3",
+    "@nomicfoundation/hardhat-network-helpers": "^1.1.2",
+    "@openzeppelin/contracts": "^5.0.2",
+    "chai": "^4.5.0",
+    "dotenv": "^16.6.1",
+    "ethers": "^6.17.0",
+    "hardhat": "^2.22.17"
+  }
+}
